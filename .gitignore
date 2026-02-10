@@ -51,4 +51,12 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-# End of https://www.toptal.com/developers/gitignore/api/python
+# Python cache
+__pycache__/
+*.pyc
+
+# Uploads
+static/uploads/
+
+# VS Code
+.vscode/
